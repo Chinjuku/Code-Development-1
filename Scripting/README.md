@@ -4,4 +4,8 @@ https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/
 :https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash-script
 
 <h1>Scripting</h1>
-<p>Bash (Bourne Again SHell) defines its own scripting language and incorporates syntax from other shells like Korn Shell (ksh) or C Shell (csh). The language supports various features such as control structures, variables, and functions. Many commands commonly used in the console can be utilized in Bash scripts, making it versatile for scripting purposes. While Bash has its syntax, it shares similarities with other Unix-like shells, allowing for the adaptation of commands and concepts across different shell environments. It's important to consider portability when writing scripts for different Unix-like systems.</p>
+<p>Scripting refers to the process of writing scripts, which are sets of instructions or commands that are executed by a computer program or scripting engine. Scripts are typically written in scripting languages, which are high-level programming languages designed for tasks that involve the automation of specific actions or processes.</p>
+
+<p style="margin:10px 50px;">Automation: Scripts are commonly used to automate repetitive tasks or processes. For example, a script might be created to automate file backups, data processing, or system maintenance.
+Web Development: In web development, scripting languages like JavaScript are used to create dynamic and interactive elements on websites. These scripts run on the client-side (in the user's browser) and enhance the user experience.
+</p>
