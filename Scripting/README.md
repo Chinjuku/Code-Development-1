@@ -1,8 +1,3 @@
-# References
-https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
-https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/
-:https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash-script
-
 # Scripting
 
 Scripting refers to the process of writing scripts, which are sets of instructions or commands that are executed by a computer program or scripting engine. Scripts are typically written in scripting languages, which are high-level programming languages designed for tasks that involve the automation of specific actions or processes.
@@ -38,4 +33,68 @@ Example: User administration, configuring system settings, or installing and upd
 -   Enhance Efficiency:
 Role: Speed up the execution of tasks without waiting for user responses.
 Example: Automating processes to complete tasks more quickly and efficiently.
+
 -   Collaborate with Other Programs:
+Role: Enable scripts to interact and work in conjunction with other programs on Linux.
+Example: Integrating script functionality with existing programs, processing data from other applications, or calling external commands.
+Scheduled Tasks with cron job:
+
+## **Shell Scripting**
+
+Usually, shells are interactive, which means they accept commands as input from users and execute them. However, sometimes we want to execute a bunch of commands routinely, so we have to type in all commands each time in the terminal.
+
+As a shell can also take commands as input from file, we can write these commands in a file and can execute them in shell to avoid this repetitive work. These files are called Shell Scripts or Shell Programs. Shell scripts are similar to the batch file in MS-DOS. Each shell script is saved with `.sh` file extension e.g., myscript.sh.
+
+A shell script has syntax just like any other programming language. If you have any prior experience with any programming language like Python, C/C++ etc. It would be very easy to get started with it.
+
+### A shell script comprises the following elements –
+-   Shell Keywords – if, else, break etc.
+-   Shell commands – cd, ls, echo, pwd, touch etc.
+-   Functions
+-   Control flow – if..then..else, case and shell loops etc.
+### Why do we need shell scripts?
+**There are many reasons to write shell scripts:**
+-   The command and syntax are exactly the same as those directly entered in the command line, so programmers do not need to switch to entirely different syntax
+-   Writing shell scripts are much quicker
+-   Quick start
+-   Interactive debugging etc.
+### Some Advantages of shell scripts
+-   The command and syntax are exactly the same as those directly entered in the command line, so programmers do not need to switch to entirely different syntax
+-   Writing shell scripts are much quicker
+-   Quick start
+-   Interactive debugging etc.
+### Some Disadvantages of shell scripts
+-   Prone to costly errors, a single mistake can change the command which might be harmful.
+-   Slow execution speed
+-   Design flaws within the language syntax or implementation
+-   Not well suited for large and complex task
+-   Provide minimal data structure unlike other scripting languages. etc.
+Simple demo of shell scripting using Bash Shell
+If you work on a terminal, something you traverse deep down in directories. Then for coming few directories up in path we have to execute a command like this as shown below to get to the “python” directory:
+**![](https://lh7-us.googleusercontent.com/AeEnH_UZdNXk42X0tqShmVJco1wuwEBGuawiWaFsW_50bskwxkgG9j4g3h2LWjHeb3OlSVGqtox2QS04_P1oYpGBhBte6EN4KtFwOU0t1KBxTy0bmVjP-YP78tXbo0dKhU2rLHw0UZEvEUCZgrzkIeA)**
+It is quite frustrating, so why not we can have a utility where we just have to type the name of directory and we can directly jump to that without executing the “cd ../” command again and again. Save the script as “jump.sh”
+
+## Scripting for Windows system administrators
+> As a Windows system administrator, you constantly perform many routine
+tasks in an effort to manage, maintain, and support your Windows
+environment. Occasionally the need will arise to create a script that
+[ How to choose the best desktop-as-a-service solution ]
+handles a repetitive task in a more efficient way, or gets a piece of information that otherwise would be difficult to find out. It is relatively easy to write scripts with the scripting technologies that Microsoft provides. But if you are like most of us, taking the time to learn all of the facets of a scripting language and the underlying
+system requirements is difficult. In this series of articles, I will provide you with a foundation upon which you can successfully develop your scripting skills, and begin writing scripts with a minimal amount of effort and time on your part. Let's start with an overview of the different scripting technologies that Microsoft has provided, and then in the weeks to come, I will touch on each of the technologies in detail, and provide some basic code snippets, along with links to where you can find more detailed information. Microsoft has created four independent, yet highly integrated components that make up a well-rounded set of scripting technologies. These include the Windows Scripting Host (WSH), Visual Basic Scripting Edition (VBScript), Windows Management Interface (WMI), and Active Directory Scripting Interface (ADSI). When combined, these components make up a rich set of tools for developing basic to advanced administrative scripts. Each of these technologies provides you with different tools to develop scripts:
+* Windows Scripting Host (WSH) is the scripting engine that creates an environment upon which scripts can execute on a Windows system.
+* Visual Basic Scripting Edition (VBScript) is the scripting language, based upon the Visual Basic framework, that actually provides the syntax and program control that you will require within your script (i.e. looping, if-then-else statements, function declarations, variable storage, arrays, etc)
+*Windows Management Interface (WMI) provides you with a consistent way to access comprehensive system management information (i.e. hard drive information, file system control, etc.)
+* Active Directory Scripting Interface (ADSI) is the technology that allows you to create scripts to administer directories such as Active Directory.
+management, but the two most important pieces are VBScript and WSH, because without these two components, you would not be able to take advantage of the features of WMI and ADSI (see Figure 1).
+
+
+#### **Figure 1**
+http://www.itworld.com/image_download/windows_scripting.html
+
+## REFERENCE
+[https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
+[https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash-script)https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/]
+[https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash-script]
+[https://www.linuxadictos.com/]
+[https://adamtheautomator.com/linux-shell-scripting-tutorial/#What_is_a_Shell]
+[https://blog.desdelinux.net/th/bash-%]
