@@ -92,9 +92,10 @@ management, but the two most important pieces are VBScript and WSH, because with
 http://www.itworld.com/image_download/windows_scripting.html
 
 ## REFERENCE
-[https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
-[https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash-script)https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/]
-[https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash-script]
-[https://www.linuxadictos.com/]
-[https://adamtheautomator.com/linux-shell-scripting-tutorial/#What_is_a_Shell]
-[https://blog.desdelinux.net/th/bash-%]
+[https://www.geeksforgeeks.org/introduction-linux-shell-shell-scripting/] <br>
+(https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)<br>
+[https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash- script)https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/]<br>
+[https://docs.aic-eec.com/computer-operation-system/zero-to-linux-hero/anatomy-of-linux-system/basic-bash-script]<br>
+[https://www.linuxadictos.com/]<br>
+[https://adamtheautomator.com/linux-shell-scripting-tutorial/#What_is_a_Shell]<br>
+[https://blog.desdelinux.net/th/bash-%]<br>
