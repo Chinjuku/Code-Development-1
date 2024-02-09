@@ -73,7 +73,31 @@ Simple demo of shell scripting using Bash Shell
 If you work on a terminal, something you traverse deep down in directories. Then for coming few directories up in path we have to execute a command like this as shown below to get to the “python” directory:
 **![](https://lh7-us.googleusercontent.com/AeEnH_UZdNXk42X0tqShmVJco1wuwEBGuawiWaFsW_50bskwxkgG9j4g3h2LWjHeb3OlSVGqtox2QS04_P1oYpGBhBte6EN4KtFwOU0t1KBxTy0bmVjP-YP78tXbo0dKhU2rLHw0UZEvEUCZgrzkIeA)**
 It is quite frustrating, so why not we can have a utility where we just have to type the name of directory and we can directly jump to that without executing the “cd ../” command again and again. Save the script as “jump.sh”
+### USEFUL SHELL SCRIPT TEMPLATE
+> Before learning things systematically, here is a fairly simple script which is very powerful and useful for modifying for many different tasks.
+  #!/bin/sh
+  for filename in *.nii.gz ; do
+    fname=`$FSLDIR/bin/remove_ext ${filename}`
+    fslmaths ${fname} -s 2 ${fname}_smooth2
+    mv ${fname}.nii.gz ${fname}_smooth0.nii.gz
+  done
+**What this does:**
+For each image (*.nii.gz) it smooths it to make a new one of the same name but ending in _smooth2 and also renames the unsmoothed image to end with _smooth0
+**How this works:**
+- The variable filename is used in a for loop to go through each name matching *.nii.gz
+- The variable fname is set to the filename with the ending (e.g. .nii.gz) removed.
+  Don't worry about how this works for now - the details will be explained later.
+- ${filename} and ${fname} are used to get the values (contents) of the variables
+- fslmaths is used to do the smoothing.
+- mv is used to do the renaming (notice that .nii.gz is needed here, but not for the fsl tools, as they work with or without the .nii.gz endings).
 
+### SCRIPTING TIPS
+> Here are some basic, but useful, tips for writing scripts
+- Put in comments (to jog your memory when you write your paper months/years later)
+- Put in some echo output commands so that you get some feedback on what your script is doing as it runs
+- If your script starts doing something bad (or nothing at all) then use control-C to stop it
+- If your script makes new files, changes files or deletes files then start with a version which uses echo in front of the important commands. When you run this version it will just display the commands to the screen so that you can examine them carefully and make sure they are right. Once you are happy with them then remove the echo from in front of these commands and run this version.
+- It doesn't hurt to make a backup of key files before running a script, just in case.
 ## Scripting for Windows system administrators
 > As a Windows system administrator, you constantly perform many routine
 tasks in an effort to manage, maintain, and support your Windows
