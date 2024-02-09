@@ -1,4 +1,6 @@
-# Devtool
+# Devtools
+## What is a DevTool?
+Web developer tools, also known as DevTools that are meant to help developers in the process of testing as well as debugging their codes. These development tools are utterly different from IDEs and other website builders. It is because these are not meant to help in the direct process of a webpage creation; instead, these are the tools that will help you in testing your webpage or web application.
 ## Front-end Roles on Linux
 On the Linux operating system, we can use DevTools in various browsers such as Google Chrome, Mozilla Firefox, and Chromium-based browsers like Brave. The process of accessing DevTools is generally the same as described earlier. Typically, you can access it by pressing F12 or Ctrl+Shift+I (on Windows) or Cmd+Opt+I (on macOS). If these shortcuts are not available, you can usually find DevTools in the browser menu to open it.
 
@@ -16,8 +18,14 @@ Programming development tools or DevTools play important roles in code developme
 ## Fundamentals or Operational Principles
 There are several Dev Tools available for code development on Linux, aimed at facilitating efficient coding. Here are some of the Dev Tools commonly used on Linux:
 
+## Examples of Dev Tools that work on Linux:
+
 ### Integrated Development Environments (IDEs):
 An integrated development environment (IDE) is a software application that helps programmers develop software code efficiently. It increases developer productivity by combining capabilities such as software editing, building, testing, and packaging in an easy-to-use application. Just as writers use text editors and accountants use spreadsheets, software developers use IDEs to make their job easier.
+
+#### Why are IDEs important?
+You can use any text editor to write code. However, most integrated development environments (IDEs) include functionality that goes beyond text editing. They provide a central interface for common developer tools, making the software development process much more efficient. Developers can start programming new applications quickly instead of manually integrating and configuring different software. They also don't have to learn about all the tools and can instead focus on just one application. The following are some reasons why developers use IDEs:
+
 -   Visual Studio Code
     
 -   IntelliJ IDEA,
@@ -30,7 +38,7 @@ An integrated development environment (IDE) is a software application that helps
     
 -   Code::Blocks
 
-#### Text Editors
+### Text Editors
 These are programs used for writing and editing program code in text format. They typically have basic features like syntax highlighting, code formatting, and line numbering.
 -   Vim: A highly efficient Text Editor suitable for programming.
     
@@ -38,31 +46,31 @@ These are programs used for writing and editing program code in text format. The
     
 -   Nano: An easy-to-use Text Editor suitable for beginners.
 
-#### Compilers
+### Compilers
 They are programs used to translate code written in a human-readable programming language into machine-readable code that computers can understand, such as converting C or C++ code into machine code.
 -   GCC: A Compiler that supports programming languages such as C, C++, Fortran, Java, Ada, and more.
     
 -   Clang: A Compiler that supports programming languages such as C, C++, Objective-C, and Swift.
 
-#### Debuggers
+### Debuggers
 These tools help find and fix errors or bugs in a program by tracking its execution and inspecting values during runtime.
 -   GDB: A Debugger that supports programming languages such as C, C++, Fortran, Java, Ada, and more.
     
 -   LLDB: A Debugger that supports programming languages such as C, C++, Objective-C, and Swift.
 
-#### Version Control Systems
+### Version Control Systems
 They assist in managing and controlling program code, including recording the history of code changes and facilitating collaboration among team members in software development.
 -   Git: A Version Control System that is easy to use and suitable for collaboration.
     
 -   Subversion (SVN): A powerful Version Control System suitable for centralized usage.
 
-#### Build Tools
+### Build Tools
 These tools aid in the process of building software, which includes compiling code, managing dependencies, and creating executable files.
 -   CMake: A Build Tool that is easy to use and suitable for working on various platforms.
     
 -   Automake: A efficient Build Tool suitable for complex usage.
 
-#### Testing Tools
+### Testing Tools
 They help ensure the correctness and efficiency of a program by checking its behavior in different scenarios and performing automated testing.
 
 ## Call and Outcome
@@ -106,4 +114,4 @@ Additionally, caution should be exercised when using DevTools in contexts involv
 -   Google Chrome DevTools : Google Developers - DevTools
 - Mozilla Firefox Developer Tools  : MDN Web Docs
 - [What is an IDE? - Integrated Development Environment Explained - AWS (amazon.com)](https://aws.amazon.com/what-is/ide/)
-
+- https://blog.back4app.com/what-is-a-devtool/
