@@ -10,7 +10,7 @@ Source programs are compiled before time and stored as machine-independent code,
 - - - -
 <br/>
 
-## Linux Interpreter
+## 1.Linux Interpreter
 An interpreter on Linux is a program used to translate program code into machine-readable code. Generally, interpreters are used to run programs written in scripting languages or languages that are not compiled into binary files. Examples of interpreters on Linux include the Python interpreter (python), Perl interpreter (perl), Bash interpreter (bash), and PHP interpreter (php), among others 
 
 In Linux, interpreters play a crucial role in running various programs and scripting languages. There are two main types of interpreters: 
@@ -32,7 +32,8 @@ In Linux, interpreters play a crucial role in running various programs and scrip
 * Each language has its own interpreter and syntax rules.
 * You can find references to their functionalities in their respective man pages (e.g., man bash).
 <br/>
-## Basics Interpreter in Linux
+
+## 2.Basics Interpreter in Linux
 In Linux, interpreters play a crucial role in executing various scripting languages. Here's a breakdown of their basics and working principles: 
 
 **What is an interpreter?** 
@@ -182,7 +183,33 @@ By exploring these topics, you can gain a deeper understanding of the potential 
 - - - -
 <br/>
 
-## resources
+## 5.More intesting topics
+
+**1. Beyond Bash: Exploring Versatile Scripting Languages**
+
+* **Python**: A widely used, general-purpose language known for its readability, extensive libraries, and cross-platform compatibility. Explore automation, web development, data science, and more: https://www.python.org/
+* **Ruby**: Often associated with web development (Ruby on Rails framework), it's also suitable for system administration, data analysis, and rapid prototyping. Discover its elegance and community: https://www.ruby-lang.org/en/
+* **Perl**: A versatile language for text processing, system administration, web development, and bioinformatics. Learn its powerful regular expressions and object-oriented features: https://www.perl.org/
+* **Go**: A modern, compiled language gaining traction for its simplicity, concurrency, and efficiency. Explore its use in web services, cloud computing, and command-line tools: https://golang.org/
+
+**2. Mastering the Shell: Bash Scripting for Automation**
+
+* **Advanced Shell Scripting**: Deepen your understanding of variables, control flow, functions, and error handling. Create robust scripts for repetitive tasks, file manipulation, and system administration
+* **Bash Cookbook**: Find practical recipes for common scripting tasks, from working with files and processes to network administration and web scraping
+
+**3. Diving into Interpreted Languages for Specific Domains**
+* **Awk**: A concise language for text processing and data manipulation, often used in pipelines and data analysis. Learn its pattern matching and field extraction capabilities: https://www.gnu.org/software/gawk/manual/html_node/index.html
+* **Sed**: A stream editor for text manipulation, ideal for filtering, replacing, and deleting text content. Master its regular expressions and in-place editing: https://www.gnu.org/software/sed/manual/sed.html
+* **Lua**: A lightweight scripting language embedded in applications for scripting, configuration, and extensions. Explore its use in game development, web servers, and network tools: https://www.lua.org/
+
+**4. Interpreters for System Administration and DevOps**
+* **Ansible**: An automation tool using YAML playbooks and Python modules for configuration management, provisioning, and application deployment. Simplify infrastructure management: https://www.ansible.com/
+* **Puppet**: Another popular configuration management tool with a declarative approach and Ruby DSL. Ensure consistent infrastructure across environments: https://puppet.com/
+* **SaltStack**: A flexible automation and configuration management tool with a Python API and modules for various platforms. Manage infrastructure and applications efficiently: https://saltstack.com/
+- - - -
+<br/>
+
+## Reference
 * Open Web Application Security Project (OWASP) Top 10: https://owasp.org/Top10/: https://owasp.org/Top10/ 
 * Center for Internet Security (CIS) Benchmarks for Linux: https://benchmarks.cisecurity.org/downloads:
 * Bash Guide for Beginners: https://tldp.org/guides.html: https://tldp.org/guides.html 
