@@ -1,4 +1,4 @@
-# Web Dev Too
+# Web Dev Tool
 
 ## Web Development Tools responsibility in Linux
 
