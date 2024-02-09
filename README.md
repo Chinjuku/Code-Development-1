@@ -37,7 +37,7 @@
 ## Constibuter ##
 รหัสนักศึกษา | ชื่อ & นามสกุล | ส่วนที่รับผิดชอบ | ภาพสมาชิก
 -------- | -------------------- | ------------ | ----------
-65070023 |  นางสาว กุลนันท์ สุนันท์	 | Scripting      | ![enter image description here](https://scontent.fbkk24-1.fna.fbcdn.net/v/t39.30808-6/266638409_1228894410854081_1043128965625057160_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=efb6e6&_nc_eui2=AeEJXIXx_R0-Q_eqdTOw4QIffUc61bIZlpt9RzrVshmWm4dBcxfclFq3vAnnlKENqDjgVUzz3tuQ0UwFgZ1vhhVN&_nc_ohc=on7-Yo0g--gAX_EU-i2&_nc_ht=scontent.fbkk24-1.fna&oh=00_AfAdh2nx23NkqiJbqdrf1VJ6JFmYXZh-VqSH8W-BRxeDHA&oe=65CA9F33) |
+65070023 |  นางสาว กุลนันท์ สุนันท์	 | Scripting      | ![enter image description here](https://github.com/Chinjuku/Code-Development-2/blob/main/image/nornor%20(3).jpg) |
 65070052 | นายชินาธิป หวู | บทคัดย่อ, Scripting, DevTools | ![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/chinjung.png)
 65070053 |	นางสาว ชุติกาญจน์  ใจคง |	Debugger  | ![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/chaaim.png)
 65070062 |	นาย ณภัทร  มากสมบูรณ์	| Interpreter   |
