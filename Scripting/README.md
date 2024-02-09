@@ -76,12 +76,13 @@ It is quite frustrating, so why not we can have a utility where we just have to 
 
 ## USEFUL SHELL SCRIPT TEMPLATE
 Before learning things systematically, here is a fairly simple script which is very powerful and useful for modifying for many different tasks.
-  `#!/bin/sh
-  for filename in *.nii.gz ; do
-    fname=`$FSLDIR/bin/remove_ext ${filename}`
-    fslmaths ${fname} -s 2 ${fname}_smooth2
-    mv ${fname}.nii.gz ${fname}_smooth0.nii.gz
-  done`
+`#!/bin/sh`
+  `for filename in *.nii.gz ; `
+  `do`
+    `fname=`$FSLDIR/bin/remove_ext ${filename}``
+    `fslmaths ${fname} -s 2 ${fname}_smooth2`
+    `mv ${fname}.nii.gz ${fname}_smooth0.nii.gz`
+  `done`
 **What this does:**
 For each image (*.nii.gz) it smooths it to make a new one of the same name but ending in _smooth2 and also renames the unsmoothed image to end with _smooth0
 **How this works:**
