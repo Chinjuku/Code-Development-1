@@ -37,12 +37,12 @@
 ## Constibuter ##
 รหัสนักศึกษา | ชื่อ & นามสกุล | ส่วนที่รับผิดชอบ | ภาพสมาชิก
 -------- | -------------------- | ------------ | ----------
-65070023 |  นางสาว กุลนันท์ สุนันท์	 | Scripting      | ![enter image description here](https://github.com/Chinjuku/Code-Development-2/blob/main/image/nornor%20(3).jpg) |
-65070052 | นายชินาธิป หวู | บทคัดย่อ, Scripting, DevTools | ![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/chinjung.png)
-65070053 |	นางสาว ชุติกาญจน์  ใจคง |	Debugger  | ![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/chaaim.png)
-65070062 |	นาย ณภัทร  มากสมบูรณ์	| Interpreter   |![alt text](https://github.com/Chinjuku/Code-Development-2/blob/main/image/ton.jpg)
-65070069 |	นางสาว ณัฐชา  ฤทธิ์คำรพ	| Web Dev Tool | ![alt text](https://github.com/Chinjuku/Code-Development-1/blob/main/image/bambam.jpg)
-65070084 |	นาย ณัฐวัตร  จันโท	    | Compiler   |![alt text](https://github.com/Chinjuku/Code-Development-2/blob/main/image/gun.png)
+65070023 |  นางสาว กุลนันท์ สุนันท์	 | Scripting      | <img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/nornor%20(3).jpg"> |
+65070052 | นายชินาธิป หวู | บทคัดย่อ, Scripting, DevTools | <img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/chinjung.png" />
+65070053 |	นางสาว ชุติกาญจน์  ใจคง |	Debugger  | <img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/chaaim.jpg">
+65070062 |	นาย ณภัทร  มากสมบูรณ์	| Interpreter   |<img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/ton.jpg">
+65070069 |	นางสาว ณัฐชา  ฤทธิ์คำรพ	| Web Dev Tool | <img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/bambam.jpg">
+65070084 |	นาย ณัฐวัตร  จันโท	    | Compiler   |<img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/gun.png">
 65070243 |	นาย สุเมธา  ปานกลาง    | DevTools   |
 
 ## Tools
