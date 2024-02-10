@@ -43,7 +43,7 @@
 65070062 |	นาย ณภัทร  มากสมบูรณ์	| Interpreter   |<img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/ton.jpg">
 65070069 |	นางสาว ณัฐชา  ฤทธิ์คำรพ	| Web Dev Tool | <img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/bambam.jpg">
 65070084 |	นาย ณัฐวัตร  จันโท	    | Compiler   |<img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/gun.png">
-65070243 |	นาย สุเมธา  ปานกลาง    | DevTools   |
+65070243 |	นาย สุเมธา  ปานกลาง    | DevTools   |<img width=170 src="https://github.com/Chinjuku/Code-Development-2/blob/main/image/mek.jpg">
 
 ## Tools
 - Github
